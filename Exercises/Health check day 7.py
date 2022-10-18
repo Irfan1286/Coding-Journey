@@ -30,10 +30,10 @@ def ate_ex(b, c):
         print('Edit is done successfully')
 
 while (loop == 0):
-    mode = input('Do you want to EDIT or RETRIEVE data from client files?\n')
+    mode = input('Do you want to LOG or RETRIEVE data from client files?\n')
     choice = mode.upper()           # This is either Edit or Read File mode
 
-    if choice == 'EDIT':
+    if choice == 'LOG':
         print('Enter\n1)\tHarry\n2)\tRohan\n3)\tHammad')
         client = int(input())           # The list of names is given on top as variable names
         client -= 1                     # -1 as list starts from 0,1,2 (its irritating)
