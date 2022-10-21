@@ -1,3 +1,5 @@
+
+# enumerate () function to keep the count or track of iterations while using iterators over a tuple or list.
 shop = ['tomato', 'jam', 'brush', 'toothpaste', 'toys', 'pillow', 'chicken']
 
 count = 1
