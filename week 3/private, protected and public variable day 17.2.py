@@ -18,7 +18,7 @@ print(info._info__private)      # to print private variable we need to use the n
 # *Note :: Name doesn't matter to assign them only __ or _ name matters
 # This is name angling
 
+#-------polymorphism-------
 
-
-
-
+print(10+8)
+print('10'+'8')     # this is polymorphism
