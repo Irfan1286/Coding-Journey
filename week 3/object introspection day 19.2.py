@@ -14,7 +14,7 @@ Irfan = learn('Maths, English, Science, Bangla, Computer Science', 'Bangla', 'Py
 
 print(Irfan.Master)
 
-print(dir(Irfan))   # shows all possible codes to use with the object
+print('\n'.join(dir(Irfan)))   # shows all possible codes to use with the object
 print(id(Irfan))     # id will be different everytime
 print(type(Irfan))  # Above 2 and this is a type of object introspection
 
