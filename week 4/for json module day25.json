@@ -1,0 +1,19 @@
+{
+     "Number": [
+          "ONE",
+          1
+     ],
+     "cars": [
+          "BMW",
+          "Ferrari",
+          "Lamborghini",
+          "Toyota"
+     ],
+     "food": [
+          "Pasta",
+          "Juice",
+          "Bread",
+          "Burger"
+     ],
+     "is Bad?": false
+}
