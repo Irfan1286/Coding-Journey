@@ -24,9 +24,9 @@ def RenameFile():
                 ignore_files = [lines.split('\n')[0] for i,lines in enumerate(ignore_lines)]
         except Exception as j:
             print('\n\tThe file you mentioned is not present in the directory!')
-            ignore_files = []
+            ignore_files = []   # so that error doesn't come up later in program!
 
-        list_of_file = os.listdir()
+        list_of_file = os.listdir()     # creates a list
         for i,name in enumerate(list_of_file):
             if name not in ignore_files and format_of_file in name:
                 if what_do.capitalize() == 'C':

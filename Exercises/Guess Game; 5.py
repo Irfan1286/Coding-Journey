@@ -1,5 +1,5 @@
-#write a number where the user needs to guess and only have limited amount of 9 guesses
-#the program should tell the amount of guess left and print game over at end
+#write a number where the user needs to guess and only have limited Amount.txt of 9 guesses
+#the program should tell the Amount.txt of guess left and print game over at end
 #the program will also tell  higher or lower
 
 num = 38
