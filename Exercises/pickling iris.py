@@ -7,8 +7,8 @@ req = requests.get('https://archive.ics.uci.edu/ml/machine-learning-databases/ir
 list_of_req = [item.split(',') for item in req.split('\n') if len(item) != 0]
 
 with open('pickling iris.pkl', 'wb') as file:
-    for items in list_of_req:
-        pickle.dump(items, file)
+    pickle.dump(list_of_req, file)
 
 with open('pickling iris.pkl', 'rb') as file:
-    print(pickle.load(file))
+    data = pickle.load(file)
+    print(data)
