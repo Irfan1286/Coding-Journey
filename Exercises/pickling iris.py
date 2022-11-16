@@ -2,11 +2,9 @@
 import requests
 import pickle
 
-req = requests.get('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data')
-print(req.text)
+req = requests.get('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data').text
 
-list_of_req = str(req.content).split('\\n')
-print(list_of_req)
+list_of_req = [item.split(',') for item in req.split('\n') if len(item) != 0]
 
 with open('pickling iris.pkl', 'wb') as file:
     for items in list_of_req:
