@@ -1,6 +1,6 @@
 # ---------------------------------Meta characters-----------------------------
-# [] A set of characters
-# . Any character (except newline character)
+# [] A set of characters to search for
+# . Every character (except newline character)
 # ^ Starts with
 # $ Ends with
 # * Zero or more occurrences        # any of the characters in string
@@ -21,6 +21,7 @@
 # \s Returns a match where the string contains a white space character
 # \S Returns a match where the string DOES NOT contain a white space character
 # \W Returns a match where the string DOES NOT contain any word characters
+# \w Returns a match where the string contain any word characters
 # \Z Returns a match if the specified characters are at the end of the string
 
 
