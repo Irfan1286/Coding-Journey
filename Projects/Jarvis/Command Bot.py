@@ -17,7 +17,6 @@ import datetime
 import webbrowser as web # Allows to use web with a given url
 import os
 import random
-import email
 
 voice_engine = pyttsx3.init('sapi5')    # Defines the voice; Is a speech engine; for more search speech-api or sapi5
 type_voice = voice_engine.getProperty('voices')     # Defines voice_engine to be get voices
