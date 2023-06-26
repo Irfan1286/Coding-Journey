@@ -10,6 +10,7 @@ new = Grocery.copy()
 new['tech'] = ['computer', 'cpu', 'mouse']
 del new ['art']
 new.update({'snack':'Chips'})
+# Could also be done like this ; new['snack'] = 'chips'
 print(new)
 print(Grocery)
 
@@ -17,6 +18,10 @@ print(Grocery)
 # To print specific thing from the key and also in dictionary the default value is like [key:value]
 
 print(f'\nFuture Me Adding notes')
+
+category_list = new.keys()      #Gives a list of the first side of dictionary seperated by colon:
+item_list = new.values()        #Gives a list of the second side of dictionary seperated by colon:
+print('keys:-', category_list, '\nvalues:-', item_list)
 
 for key,value in Grocery.items():       # .items allows to use key and value ; also key and value can be named anything
     print(key)
