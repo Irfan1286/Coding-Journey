@@ -5,9 +5,9 @@ print('5+4 is', 5+4)
 print('5-4 is', 5-4)
 print('5/4 is', 5/4)
 print('5*4 is', 5*4)
-print('5%4 is', 5%4) # % will give The remainder for division of numbers
-print('5**2 is', 5**2) # ** will be indices
-print('5//4 is', 5//4) #Will not give answer in decimals
+print('5%4 is', 5%4)   #    REMAINDER ONLY:- % = remainder for division of numbers
+print('5**2 is', 5**2) #    ** = indices
+print('5//4 is', 5//4) #    WHOLE NO ONLY:- INT ONLY :- Will not give answer in decimals
 
 #Assignment Operators
 print('Assignment operators')

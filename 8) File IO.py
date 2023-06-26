@@ -59,7 +59,7 @@ v.close()
 #---------------------------------------------------------------------------------------------------#
 
 
-f = open('Irfan.txt')
+f = open('New file.txt')
 print(f.tell())
 print(f.readline())
 print(f.tell())
@@ -69,13 +69,13 @@ print(f.readline())
 print(f.tell())
 f.close()
 
-u = open('Irfan.txt')
+u = open('New file.txt')
 u.seek(24)                      #.seek resets the pointer to the character to start from
 print(u.readline())
 u.close()
 
 #With block
-with open('Irfan.txt') as f:
+with open('New file.txt') as f:
     print(f.read(8))
 
 #print(f.read(5))   This wont work as with function deletes the need of .close
